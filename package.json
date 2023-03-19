@@ -8,6 +8,7 @@
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "test:schematic": "npm test --prefix projects/ng-lib-workspace-schematic",
     "code-coverage": "ng test --no-watch --code-coverage",
     "build:ng-letter-count": "npm run build -- ng-letter-count",
     "publish:ng-letter-count": "npm publish ./dist/ng-letter-count",
@@ -31,6 +32,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.1.6",
+    "@angular-devkit/schematics-cli": "^15.2.4",
     "@angular/cli": "~15.1.5",
     "@angular/compiler-cli": "^15.1.0",
     "@types/jasmine": "~4.3.0",

@@ -1,4 +1,4 @@
-# letter-count for Angular
+# [letter-count](https://www.npmjs.com/package/letter-count) for Angular
 
 <p align="center">
 <img 
@@ -8,7 +8,7 @@
 <a href="http://packagequality.com/#?package=ng-letter-count-2"><img src="https://npm.packagequality.com/shield/ng-letter-count-2.svg?style=flat-square" alt="Package Quality"></a>
 <a href="https://travis-ci.com/thoschu/ng-lib-workspace"><img src="https://img.shields.io/travis/thoschu/ng-lib-workspace.svg?style=flat-square" alt="Travis"></a>
 <a href="https://coveralls.io/github/thoschu/ng-lib-workspace?branch=main"><img src="https://img.shields.io/coveralls/thoschu/ng-lib-workspace.svg?style=flat-square" alt="Coveralls"></a>
-<a href="https://github.com/thoschu/ng-lib-workspace/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed"></a>
+<a href="https://github.com/thoschu/ng-lib-workspace/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed"></a>
 <br/><br/>
  Useful letter-count-pipe for Angular
 <br/><br/>
@@ -67,7 +67,7 @@ $ yarn add ng-letter-count
   export class AppComponent {
     public title = 'AppComponent by Tom S.';
     
-    constructor(  private readonly ngLetterCountPipe: NgLetterCountPipe) {
+    constructor(private readonly ngLetterCountPipe: NgLetterCountPipe) {
       ngLetterCountPipe.transform(this.title, '-w'); // Returns: 4
     }
     // ..

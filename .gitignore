@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 
 /projects/ng-letter-count/node_modules
+/projects/ng-lib-workspace-schematic/node_modules

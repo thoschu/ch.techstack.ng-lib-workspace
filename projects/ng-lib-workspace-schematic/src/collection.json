@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "projects/ng-lib-workspace-schematic": {
+      "description": "A blank schematic.",
+      "factory": "./projects/ng-lib-workspace-schematic/index#projects/ngLibWorkspaceSchematic"
+    }
+  }
+}
