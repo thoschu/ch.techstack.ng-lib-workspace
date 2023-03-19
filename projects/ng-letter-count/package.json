@@ -1,6 +1,6 @@
 {
   "name": "ng-letter-count-2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Tom S.",
     "email": "thoschulte@gmail.com"
@@ -20,9 +20,9 @@
     "filter"
   ],
   "bugs": {
-    "url": "https://github.com/thoschu/de.schulte360.npm.letter-count/issues"
+    "url": "https://github.com/thoschu/ch.techstack.ng-lib-workspace/blob/main/projects/ng-letter-count/issues"
   },
-  "homepage": "https://github.com/thoschu/de.schulte360.npm.letter-count#readme",
+  "homepage": "https://github.com/thoschu/ch.techstack.ng-lib-workspace/blob/main/projects/ng-letter-count/README.md",
   "peerDependencies": {
     "@angular/common": "^15.1.0",
     "@angular/core": "^15.1.0",
