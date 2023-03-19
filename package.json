@@ -1,12 +1,18 @@
 {
   "name": "ng-lib-workspace",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
+    "install:ng-letter-count": "npm install --save-peer --prefix ./projects/ng-letter-count",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "code-coverage": "ng test --no-watch --code-coverage",
+    "build:ng-letter-count": "npm run build -- ng-letter-count",
+    "publish:ng-letter-count": "npm publish ./dist/ng-letter-count",
+    "clean:coverage": "npx rimraf coverage",
+    "clean:dist": "npx rimraf dist"
   },
   "private": true,
   "dependencies": {
@@ -18,11 +24,13 @@
     "@angular/platform-browser": "^15.1.0",
     "@angular/platform-browser-dynamic": "^15.1.0",
     "@angular/router": "^15.1.0",
+    "@types/jest": "^29.5.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^15.1.6",
     "@angular/cli": "~15.1.5",
     "@angular/compiler-cli": "^15.1.0",
     "@types/jasmine": "~4.3.0",
@@ -32,6 +40,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "ng-packagr": "^15.1.0",
     "typescript": "~4.9.4"
   }
 }

@@ -1,0 +1,35 @@
+{
+  "name": "ng-letter-count-2",
+  "version": "1.0.1",
+  "author": {
+    "name": "Tom S.",
+    "email": "thoschulte@gmail.com"
+  },
+  "description": "Useful angular pipe",
+  "license": "MIT",
+  "keywords": [
+    "ng",
+    "angular",
+    "pipes",
+    "filters",
+    "library",
+    "ng pipes",
+    "angular filters",
+    "angular pipes",
+    "pipe",
+    "filter"
+  ],
+  "bugs": {
+    "url": "https://github.com/thoschu/de.schulte360.npm.letter-count/issues"
+  },
+  "homepage": "https://github.com/thoschu/de.schulte360.npm.letter-count#readme",
+  "peerDependencies": {
+    "@angular/common": "^15.1.0",
+    "@angular/core": "^15.1.0",
+    "letter-count": "^4.0.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
