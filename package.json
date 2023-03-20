@@ -12,7 +12,6 @@
     "test:headless": "npm run test -- --no-watch --no-progress --browsers=ChromeHeadless",
     "test:schematic": "npm test --prefix projects/ng-lib-workspace-schematic",
     "code-coverage": "ng test --no-watch --code-coverage",
-    "code-coverage:lcov.info": "cat ./coverage/ng-letter-count/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "code-coverage:serve": "npx serve coverage/ng-letter-count",
     "build:ng-letter-count": "npm run build -- ng-letter-count",
     "publish:ng-letter-count": "npm publish ./dist/ng-letter-count",
