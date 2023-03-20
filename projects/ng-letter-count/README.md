@@ -14,7 +14,7 @@
 <br/><br/>
 </p>
 
-[![NPM Badge](https://nodei.co/npm/ng-letter-count.png?downloads=true)](https://www.npmjs.com/package/ng-letter-count-2)
+[![NPM Badge](https://nodei.co/npm/ng-letter-count-2.png?downloads=true)](https://www.npmjs.com/package/ng-letter-count-2)
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
 
@@ -30,13 +30,13 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 1. Use [npm](https://www.npmjs.com/) to install the package:
 
 ```terminal
-$ npm install ng-letter-count --save 
+$ npm install ng-letter-count-2 --save 
 ```
 
 2. Use [yarn](https://yarnpkg.com/) to install the package:
 
 ```terminal
-$ yarn add ng-letter-count
+$ yarn add ng-letter-count-2
 ```
 
 ## Useage
@@ -44,7 +44,7 @@ $ yarn add ng-letter-count
 1. You could either add into your module `imports` the `NgLetterCountModule` in order to add everything.
 
   ```typescript
-  import { NgLetterCountModule } from 'ng-letter-count';
+  import { NgLetterCountModule } from 'ng-letter-count-2';
   
   @NgModule({
    // ...
@@ -58,7 +58,7 @@ $ yarn add ng-letter-count
 2. Or Pipes are also injectable and can be used in Components / Services / etc..
 
   ```typescript  
-  import { NgLetterCountPipe } from 'ng-letter-count';
+  import { NgLetterCountPipe } from 'ng-letter-count-2';
 
   @Component({
     // ..
