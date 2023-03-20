@@ -15,16 +15,17 @@
   <a href="https://github.com/thoschu/ng-lib-workspace/blob/main/LICENSE.md">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed">
   </a>
-  <br>
   <a href="https://packagequality.com/#?package=ng-letter-count-2">
-    <img src="https://packagequality.com/badge/ng-letter-count-2.png" alt="Package Quality">
+    <img src="https://packagequality.com/shield/ng-letter-count-2.png" alt="Package Quality">
   </a>
   <br/><br/>
-   Useful letter-count-pipe for Angular
+  <b>Useful letter-count-pipe for Angular</b>
   <br/><br/>
+  <a href="https://www.npmjs.com/package/ng-letter-count-2">
+    <img src="https://nodei.co/npm/ng-letter-count-2.png?downloads=true" alt="Package Quality">
+  </a>
 </p>
 
-[![NPM Badge](https://nodei.co/npm/ng-letter-count-2.png?downloads=true)](https://www.npmjs.com/package/ng-letter-count-2)
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
 
