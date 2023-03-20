@@ -21,7 +21,7 @@ jobs:
           name: "Say hello"
           command: "echo Hello, World!"
   build:
-    working_directory: ~/ng-project/temp
+    working_directory: ~/ng-project
     docker:
       - image: cimg/node:16.13.1-browsers
     steps:
@@ -45,9 +45,9 @@ jobs:
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  say-hello-workflow:
-    jobs:
-      - say-hello
+#  say-hello-workflow:
+#    jobs:
+#      - say-hello
   angular-pipe:
     jobs:
       - build
