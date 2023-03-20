@@ -1,17 +1,27 @@
 # [letter-count](https://www.npmjs.com/package/letter-count) for Angular
 
 <p align="center">
-<img 
-    src="https://www.thomas-schulte.de/images/letter-count-pipe.png" width="160" border="0" alt="NGX-PIPES">
-<br/><br/>
-<a href="https://www.npmjs.com/package/ng-letter-count-2"><img src="https://img.shields.io/npm/v/ng-letter-count-2.svg?style=flat-square" alt="npm"></a>
-<a href="http://packagequality.com/#?package=ng-letter-count-2"><img src="https://npm.packagequality.com/shield/ng-letter-count-2.svg?style=flat-square" alt="Package Quality"></a>
-<a href="https://travis-ci.com/thoschu/ng-lib-workspace"><img src="https://img.shields.io/travis/thoschu/ng-lib-workspace.svg?style=flat-square" alt="Travis"></a>
-<a href="https://coveralls.io/github/thoschu/ng-lib-workspace?branch=main"><img src="https://img.shields.io/coveralls/thoschu/ng-lib-workspace.svg?style=flat-square" alt="Coveralls"></a>
-<a href="https://github.com/thoschu/ng-lib-workspace/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed"></a>
-<br/><br/>
- Useful letter-count-pipe for Angular
-<br/><br/>
+  <img src="https://www.thomas-schulte.de/images/letter-count-pipe.png" width="160" border="0" alt="LETTER-COUNT-PIPE">
+  <br/><br/>
+  <a href="https://www.npmjs.com/package/ng-letter-count-2">
+    <img src="https://img.shields.io/npm/v/ng-letter-count-2.svg?style=flat-square" alt="npm">
+  </a>
+  <a href="https://app.circleci.com/pipelines/github/thoschu/ch.techstack.ng-lib-workspace">
+    <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/thoschu/ch.techstack.ng-lib-workspace/main">
+  </a>
+  <a href="https://coveralls.io/github/thoschu/ng-lib-workspace?branch=main">
+    <img src="https://img.shields.io/coveralls/thoschu/ng-lib-workspace.svg?style=flat-square" alt="Coveralls">
+  </a>
+  <a href="https://github.com/thoschu/ng-lib-workspace/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed">
+  </a>
+  <br>
+  <a href="https://packagequality.com/#?package=ng-letter-count-2">
+    <img src="https://packagequality.com/badge/ng-letter-count-2.png" alt="Package Quality">
+  </a>
+  <br/><br/>
+   Useful letter-count-pipe for Angular
+  <br/><br/>
 </p>
 
 [![NPM Badge](https://nodei.co/npm/ng-letter-count-2.png?downloads=true)](https://www.npmjs.com/package/ng-letter-count-2)

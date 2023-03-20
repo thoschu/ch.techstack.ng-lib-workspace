@@ -62,6 +62,27 @@ jobs:
           paths:
             - "node_modules"
       - run: npm run test:headless
+  coverage-pipe:
+    working_directory: ~/ng-project
+    docker:
+      - image: cimg/node:16.13.1-browsers
+    steps:
+      - checkout
+      - browser-tools/install-chrome
+      - browser-tools/install-chromedriver
+      - run:
+          command: |
+            google-chrome --version
+            chromedriver --version
+          name: Check install
+      - restore_cache:
+          key: ng-project-{{ .Branch }}-{{ checksum "package-lock.json" }}
+      - run: npm install
+      - save_cache:
+          key: ng-project-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          paths:
+            - "node_modules"
+      - run: npm run code-coverage
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
@@ -73,3 +94,4 @@ workflows:
     jobs:
       - build-pipe
       - test-pipe
+      - coverage-pipe
