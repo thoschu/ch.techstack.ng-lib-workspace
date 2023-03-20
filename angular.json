@@ -34,8 +34,22 @@
             ],
             "karmaConfig": "projects/ng-letter-count/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ng-letter-count/**/*.ts",
+              "projects/ng-letter-count/**/*.html"
+            ]
+          }
         }
       }
     }
+  },
+  "cli": {
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
