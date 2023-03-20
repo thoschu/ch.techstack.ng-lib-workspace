@@ -9,8 +9,8 @@
   <a href="https://app.circleci.com/pipelines/github/thoschu/ch.techstack.ng-lib-workspace">
     <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/thoschu/ch.techstack.ng-lib-workspace/main">
   </a>
-  <a href="https://coveralls.io/github/thoschu/ng-lib-workspace?branch=main">
-    <img src="https://img.shields.io/coveralls/thoschu/ng-lib-workspace.svg?style=flat-square" alt="Coveralls">
+  <a href='https://coveralls.io/github/thoschu/ch.techstack.ng-lib-workspace?branch=main'>
+    <img src='https://coveralls.io/repos/github/thoschu/ch.techstack.ng-lib-workspace/badge.svg?branch=main' alt='Coverage Status'>
   </a>
   <a href="https://github.com/thoschu/ng-lib-workspace/blob/main/LICENSE.md">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed">
