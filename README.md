@@ -6,6 +6,32 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 [ng-letter-count-2](projects/ng-letter-count/README.md)
 
+<p align="center">
+  <img src="https://www.thomas-schulte.de/images/letter-count-pipe.png" width="160" border="0" alt="LETTER-COUNT-PIPE">
+  <br/><br/>
+  <a href="https://www.npmjs.com/package/ng-letter-count-2">
+    <img src="https://img.shields.io/npm/v/ng-letter-count-2.svg?style=flat-square" alt="npm">
+  </a>
+  <a href="https://app.circleci.com/pipelines/github/thoschu/ch.techstack.ng-lib-workspace">
+    <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/thoschu/ch.techstack.ng-lib-workspace/main">
+  </a>
+  <a href='https://coveralls.io/github/thoschu/ch.techstack.ng-lib-workspace?branch=main'>
+    <img src='https://coveralls.io/repos/github/thoschu/ch.techstack.ng-lib-workspace/badge.svg?branch=main' alt='Coverage Status'>
+  </a>
+  <a href="https://github.com/thoschu/ng-lib-workspace/blob/main/LICENSE.md">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="MIT licensed">
+  </a>
+  <a href="https://packagequality.com/#?package=ng-letter-count-2">
+    <img src="https://packagequality.com/shield/ng-letter-count-2.png" alt="Package Quality">
+  </a>
+  <br><br>
+  <b>Useful letter-count-pipe for Angular</b>
+  <br><br>
+  <a href="https://www.npmjs.com/package/ng-letter-count-2">
+    <img src="https://nodei.co/npm/ng-letter-count-2.png?downloads=true" alt="Package Quality">
+  </a>
+</p>
+
 
 ## Development server
 
