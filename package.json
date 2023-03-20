@@ -8,7 +8,7 @@
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:headless": "ng test --no-watch --no-progress --browsers=ChromeHeadless",
+    "test:headless": "npm run test -- --no-watch --no-progress --browsers=ChromeHeadless",
     "test:schematic": "npm test --prefix projects/ng-lib-workspace-schematic",
     "code-coverage": "ng test --no-watch --code-coverage",
     "build:ng-letter-count": "npm run build -- ng-letter-count",
