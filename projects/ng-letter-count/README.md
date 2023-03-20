@@ -18,9 +18,9 @@
   <a href="https://packagequality.com/#?package=ng-letter-count-2">
     <img src="https://packagequality.com/shield/ng-letter-count-2.png" alt="Package Quality">
   </a>
-  <br/><br/>
+  <br><br>
   <b>Useful letter-count-pipe for Angular</b>
-  <br/><br/>
+  <br><br>
   <a href="https://www.npmjs.com/package/ng-letter-count-2">
     <img src="https://nodei.co/npm/ng-letter-count-2.png?downloads=true" alt="Package Quality">
   </a>
