@@ -16,7 +16,8 @@
     "build:ng-letter-count": "npm run build -- ng-letter-count",
     "publish:ng-letter-count": "npm publish ./dist/ng-letter-count",
     "clean:coverage": "npx rimraf coverage",
-    "clean:dist": "npx rimraf dist"
+    "clean:dist": "npx rimraf dist",
+    "coveralls": "npm run coveralls"
   },
   "private": true,
   "dependencies": {
