@@ -62,6 +62,9 @@ jobs:
           key: ng-project-{{ .Branch }}-{{ checksum "package-lock.json" }}
           paths:
             - "node_modules"
+      - run:
+          name: Lint
+          command: npm run lint
       - run: npm run test:headless
   coverage-pipe:
     working_directory: ~/ng-project
