@@ -18,6 +18,12 @@
   <a href="https://packagequality.com/#?package=ng-letter-count-2">
     <img src="https://packagequality.com/shield/ng-letter-count-2.png" alt="Package Quality">
   </a>
+  <a href="https://codeclimate.com/github/thoschu/ch.techstack.ng-lib-workspace">
+    <img src="https://codeclimate.com/github/thoschu/de.schulte360.npm.letter-count/badges/gpa.svg" alt="Codeclimate">
+  </a>
+  <a href="https://snyk.io/test/github/thoschu/ch.techstack.ng-lib-workspace">
+    <img src="https://snyk.io/test/github/thoschu/ch.techstack.ng-lib-workspace/badge.svg" alt="snyk.io">
+  </a>
   <br><br>
   <b>Useful letter-count-pipe for Angular</b>
   <br><br>
@@ -25,7 +31,6 @@
     <img src="https://nodei.co/npm/ng-letter-count-2.png?downloads=true" alt="Package Quality">
   </a>
 </p>
-
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.0.
 
