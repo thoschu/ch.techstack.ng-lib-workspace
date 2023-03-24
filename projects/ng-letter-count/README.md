@@ -103,6 +103,27 @@ and it's also possible to stack multiple pipes
 ```
 ***
 
+## Options
+
+Counts the:
+
+| Type                     | Option                     |
+|--------------------------|----------------------------|
+| ▶ characters             | `'-c'` or `'--char'`       |
+| ▶ lines                  | `'-ln'` or `'--lines'`     |
+| ▶ words                  | `'-w'` or `'--words'`      |
+| ▶ numbers                | `'-n'` or `'--numbers'`    |
+| ▶ integers               | `'-int'` or `'--integers'` |
+| ▶ floats                 | `'-fl'` or `'--floats'`    |
+| ▶ spaces                 | `'-s'` or `'--spaces'`     |
+| ▶ letters                | `'-l'` or `'--letters'`    |
+| ▶ wordsigns              | `'-ws'` or `'--wordsigns'` |
+| ⭐ Generates a hash (MD5) | `'-hs'` or `'--hash'`      |
+
+[ ℹ Full description](https://www.npmjs.com/package/letter-count)
+
+***
+
 ## NPM
 
 [https://npmjs.com/package/ch.techstack.ng-lib-workspace](https://www.npmjs.com/package/ch.techstack.ng-lib-workspace)

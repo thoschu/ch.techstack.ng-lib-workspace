@@ -1,6 +1,6 @@
 {
   "name": "ng-letter-count-2",
-  "version": "2.0.3",
+  "version": "2.1.1",
   "author": {
     "name": "Tom S.",
     "email": "thoschulte@gmail.com"
@@ -27,7 +27,7 @@
   "peerDependencies": {
     "@angular/common": "^15.1.0",
     "@angular/core": "^15.1.0",
-    "letter-count": "^4.0.1"
+    "letter-count": "^5.2.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
